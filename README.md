@@ -15,4 +15,4 @@ A **To do List** foi um projeto desenvolvido durante os meus estudos sobre desen
 *Frontend*: HTML 5, CSS 3 <br>
 *Logica & Interatividade* : Java Script <br>
 
-## 🔗 <a href="https://geovannacassia.github.io">Acesse o Projeto</a>
+## 🔗 <a href="">Acesse o Projeto</a>
