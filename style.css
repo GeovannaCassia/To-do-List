@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(188, 152, 244);
+}
+div.tela{
+    margin: auto;
+    margin-top: 120px;
+    background-color: white;
+    width: 45%;
+    height: 45% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.li-tarefa, .li-concluida{
+    list-style-type: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 2px solid #bc98f4;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    align-items: center; /* Alinha tudo verticalmente */
+    justify-content: space-between; /* Empurra os elementos para as extremidades */
+}
+.li-texto{
+   display: flex;
+   margin: 15px;
+}
+.div-botoes{
+    display: flex;
+    align-items: center; /* Alinha tudo verticalmente */
+
+}
+.concluir,.apagar{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 40px;
+    height: 40px; 
+    border: none;
+    background: transparent; 
+    cursor: pointer; /* Garante que o cursor de clique apareça */
+    padding: 5px;
+    margin: 0px;
+}
+.imagem-concluir,.imagem-excluir{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; /* Garante que a imagem não seja distorcida */
+    pointer-events: none; /* Garante que o clique passe para o botão */
+}
+.new-tarefa{
+    border: 2px solid #bc98f4;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+}
+.add-tarefa{
+    background-color: #bc98f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 23px;
+    width: 75px;
+}
+.data{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.titulo{
+    padding-bottom: 1px;
+}
+.li-concluida{
+    color: grey;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 1020px){
+    div.tela{
+        width: 65%;
+        height: 65%;
+    }
+    .new-tarefa{
+        width: 55%;
+    }
+    .concluir{
+        padding-right: 8px;
+    }
+}
